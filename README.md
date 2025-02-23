@@ -56,5 +56,37 @@ The datasets are stored in the following directories:
 - Ensure that all dataset directories exist before running the scripts.
 - The preprocessing may take time depending on dataset size.
 
+## Training Wav2Vec2 Model
 
+### Overview
+This Jupyter Notebook is for training a Wav2Vec2 model for automatic speech recognition (ASR) or related tasks. The notebook guides users through loading datasets, preprocessing audio data, fine-tuning the model, and evaluating its performance.
 
+### Notebook Structure
+The notebook is divided into the following sections:
+
+1. **Setup & Imports**: Loads necessary libraries and sets up the environment.
+2. **Dataset Preparation**: Loads and preprocesses the audio dataset.
+3. **Feature Extraction**: Uses Wav2Vec2 feature extractor for speech-to-text conversion.
+4. **Model Fine-Tuning**: Trains the Wav2Vec2 model on the dataset.
+5. **Evaluation**: Tests the model's performance using word error rate (WER) and character error rate (CER).
+6. **Inference**: Demonstrates real-world predictions on sample audio inputs.
+7. **Saving & Exporting**: Saves the trained model for later use.
+
+### Expected Output
+- Trained Wav2Vec2 model
+- Performance metrics (WER, CER)
+- Transcribed text from audio samples
+
+### Customization
+- Replace the dataset with your own audio data.
+- Adjust training parameters such as learning rate, batch size, and epochs.
+- Implement different evaluation metrics if needed.
+
+### Troubleshooting
+- Ensure you have enough GPU memory for training.
+- Check for dataset formatting errors.
+- Adjust learning rates if training is unstable.
+
+### References
+- [Hugging Face Wav2Vec2 Documentation](https://huggingface.co/transformers/model_doc/wav2vec2.html)
+- [Speech Datasets on Hugging Face](https://huggingface.co/datasets)
