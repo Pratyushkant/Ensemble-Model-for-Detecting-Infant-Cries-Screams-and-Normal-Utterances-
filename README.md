@@ -98,9 +98,9 @@ The Jupyter Notebook (`Training_YAMNET.ipynb`) trains and fine-tunes YAMNet, a d
 
 ### Features
 - Loads pre-trained YAMNet weights.
-- Fine-tunes the model on a custom dataset.
+- Fine-tune the model on a custom dataset.
 - Performs feature extraction using YAMNet embeddings.
-- Evaluates the model's performance.
+- Evaluate the model's performance.
 - Saves the trained model for inference.
 
 ### Data Preparation
@@ -124,6 +124,30 @@ The Jupyter Notebook (`Training_YAMNET.ipynb`) trains and fine-tunes YAMNet, a d
 - [YAMNet on TensorFlow Hub](https://tfhub.dev/google/yamnet/1)
 - [Librosa Documentation](https://librosa.org/doc/latest/index.html)
 
+## Ensemble Model for Audio Classification
 
+### Overview
+The Jupyter Notebook implements an ensemble learning approach for audio classification. It leverages machine learning models and deep learning techniques to process and classify audio data.
 
+### Features
+- Uses `PyTorch` for deep learning models.
+- Implements ensemble learning with `RandomForestClassifier` and `LogisticRegression`.
+- Utilizes `Wav2Vec2` from the Hugging Face `transformers` library for feature extraction.
+- Processes audio data using `librosa`.
+- Provides evaluation metrics, including accuracy, precision, recall, F1-score, confusion matrices, and ROC-AUC.
+- Includes visualizations with `matplotlib` and `seaborn`.
+
+### Dataset
+- The model expects a dataset of audio files.
+- Ensure that the dataset is properly preprocessed and split into training and testing sets.
+
+### Usage
+1. **Load the dataset**: Modify the notebook to point to the correct dataset location.
+2. **Preprocess the audio**: Extract features using `librosa` and `Wav2Vec2FeatureExtractor`.
+3. **Train the model**: Train ensemble classifiers on extracted features.
+4. **Evaluate performance**: Compute accuracy, precision, recall, F1-score, and visualize results.
+
+### Results
+- The notebook generates confusion matrices, ROC curves, and other performance metrics.
+- Models are compared using ensemble techniques to improve classification accuracy.
 
