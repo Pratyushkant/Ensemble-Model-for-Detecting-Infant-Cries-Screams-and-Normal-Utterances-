@@ -1,9 +1,9 @@
-# Ensemble-Model-for-Detecting-Infant-Cries-Screams-and-Normal-Utterances
+# Ensemble Model for Detecting Infant Cries, Screams and Normal Utterances
 
 ## Audio Data Preprocessing Pipeline
 
 ### Overview
-This jupyter notebooks contains scripts for preprocessing audio datasets, including counting and filtering files, segmenting and enhancing audio, and splitting the processed data into training, validation, and test sets.
+This Jupyter notebook contains scripts for preprocessing audio datasets, including counting and filtering files, segmenting and enhancing audio, and splitting the processed data into training, validation, and test sets.
 
 ### Dataset Structure
 The datasets are stored in the following directories:
@@ -22,7 +22,7 @@ The datasets are stored in the following directories:
 - Loads audio files in mono with a sampling rate of 16 kHz.
 
 ##### `segment_audio(audio, segment_length=2, sr=16000)`
-- Segments audio into 2-second chunks.
+- Segment audio into 2-second chunks.
 
 ##### `advanced_preprocess(segment, sr=16000)`
 - Applies Wiener filtering for noise reduction.
@@ -31,7 +31,7 @@ The datasets are stored in the following directories:
 
 ##### `process_dataset_in_batches(dataset_path, label, sr=16000, batch_size=50)`
 - Processes audio files in batches to avoid memory overload.
-- Segments, enhances, and saves audio.
+- Segments, enhances and saves audio.
 - Stores metadata in `processed_audio_metadata.csv`.
 
 #### 2. Data Balancing
@@ -55,4 +55,6 @@ The datasets are stored in the following directories:
 ### Notes
 - Ensure that all dataset directories exist before running the scripts.
 - The preprocessing may take time depending on dataset size.
+
+
 
