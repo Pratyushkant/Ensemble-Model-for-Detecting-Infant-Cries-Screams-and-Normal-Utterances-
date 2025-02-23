@@ -1,5 +1,7 @@
 # Ensemble Model for Detecting Infant Cries, Screams and Normal Utterances
 
+Install the conda environment given in the `environment.yml` using the script `conda env create -f environment.yml` in bash, Linux Mint 22.1.
+
 ## Dataset
 
 - Infant Cry Datasets: 
