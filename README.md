@@ -14,6 +14,12 @@
   - Common Voice Dataset: A multilingual dataset providing a wide range of normal speech recordings.
   - Children's speech: Collection of a variety of children's single and group speech samples (https://research.google.com/audioset/dataset/child_speech_kid_speaking.html).
 
+## Models
+
+The models are presented here as Dropbox links here. Click to download.
+  - YAMNET model: https://www.dropbox.com/scl/fi/6v9klve9imhfgqerzn3vl/best_model_yamnet.tar.gz?rlkey=2i4ckg0mx161yoxr5rbhoxxkq&st=g2iw6k5c&dl=0
+  - Wvac model: https://www.dropbox.com/scl/fi/cruluwgneqbx4c9oy0hd4/best_model_wvac.tar.gz?rlkey=u8hjxl1pzh4u81eygqco57d3b&st=u7xyr1j3&dl=0
+
 ## Audio Data Preprocessing Pipeline
 
 ### Overview
