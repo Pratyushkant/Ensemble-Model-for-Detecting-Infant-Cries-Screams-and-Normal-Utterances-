@@ -140,6 +140,7 @@ The Jupyter Notebook implements an ensemble learning approach for audio classifi
 ### Dataset
 - The model expects a dataset of audio files.
 - Ensure that the dataset is properly preprocessed and split into training and testing sets.
+- Ensure that the python file `yamnet.py` is in the same directory.
 
 ### Usage
 1. **Load the dataset**: Modify the notebook to point to the correct dataset location.
