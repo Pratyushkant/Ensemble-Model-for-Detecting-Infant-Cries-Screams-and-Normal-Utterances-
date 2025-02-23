@@ -1,5 +1,19 @@
 # Ensemble Model for Detecting Infant Cries, Screams and Normal Utterances
 
+## Dataset
+
+- Infant Cry Datasets: 
+  - Infant Cry Audio Corpus: A collection of infant cry sounds built through the Donate-a-Cry campaign (https://www.kaggle.com/datasets/warcoder/infant-cry-audio-corpus?utm_source=chatgpt.com).
+  - Infant's Cry Sound Dataset: Contains recordings classified into categories like hungry, tired, and uncomfortable (https://data.mendeley.com/datasets/hbppd883sd/1?utm_source=chatgpt.com). 
+
+- Screaming Datasets: 
+  - Human Screaming Detection Dataset: Focuses on the identification and analysis of human screams (https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset?utm_source=chatgpt.com).
+  - Screaming Audio Clips from AudioSet: A collection of high-pitched human vocalizations indicating various emotions (https://research.google.com/audioset/dataset/screaming.html?utm_source=chatgpt.com).
+
+- Normal Utterances Datasets:
+  - Common Voice Dataset: A multilingual dataset providing a wide range of normal speech recordings.
+  - Children's speech: Collection of a variety of children's single and group speech samples (https://research.google.com/audioset/dataset/child_speech_kid_speaking.html).
+
 ## Audio Data Preprocessing Pipeline
 
 ### Overview
