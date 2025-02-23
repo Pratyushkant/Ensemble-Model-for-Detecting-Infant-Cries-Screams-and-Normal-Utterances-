@@ -90,3 +90,40 @@ The notebook is divided into the following sections:
 ### References
 - [Hugging Face Wav2Vec2 Documentation](https://huggingface.co/transformers/model_doc/wav2vec2.html)
 - [Speech Datasets on Hugging Face](https://huggingface.co/datasets)
+
+## YAMNet Training Notebook
+
+### Overview
+The Jupyter Notebook (`Training_YAMNET.ipynb`) trains and fine-tunes YAMNet, a deep-learning model for audio classification. YAMNet is a pre-trained model based on MobileNet that recognizes various sound events. This notebook guides users through data preprocessing, model training, and evaluation.
+
+### Features
+- Loads pre-trained YAMNet weights.
+- Fine-tunes the model on a custom dataset.
+- Performs feature extraction using YAMNet embeddings.
+- Evaluates the model's performance.
+- Saves the trained model for inference.
+
+### Data Preparation
+- Ensure the dataset is organized in a format compatible with YAMNet.
+- Use `librosa` for audio feature extraction if additional preprocessing is required.
+
+### Model Training
+- The notebook fine-tunes YAMNet on a new dataset.
+- Modify training parameters such as learning rate, batch size, and number of epochs.
+- Save the trained model for later inference.
+
+### Evaluation
+- Compute accuracy, precision, and recall.
+- Visualize loss and accuracy curves.
+
+### Output
+- The trained model is saved for inference.
+- Predictions can be made on new audio files using the saved model.
+
+### References
+- [YAMNet on TensorFlow Hub](https://tfhub.dev/google/yamnet/1)
+- [Librosa Documentation](https://librosa.org/doc/latest/index.html)
+
+
+
+
